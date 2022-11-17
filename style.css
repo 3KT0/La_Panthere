@@ -532,8 +532,8 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
-    text-align: center;
+    width: 200px;
+    height: 100px;
 }
 
 a[data-lightbox]:hover::before {
@@ -700,6 +700,9 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     max-width: 400px;
     margin: auto auto auto auto;
 }
