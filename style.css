@@ -678,6 +678,10 @@ a {
 }
 
 p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     font-size: 15px;
 }
 
